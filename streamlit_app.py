@@ -35,3 +35,4 @@ if dd <= -12:         alerts.append("🛡️ DD ≤ -12% : réduire actions/comm
 if not mom:           alerts.append("📉 Momentum négatif : -4 à -6 pts actions ; +2 pts CTA ; +2 pts ILB.")
 if vix>25 or atr>2.5: alerts.append("⏱️ Haute volatilité : passer en 1h/3j ; stops ATR plus serrés.")
 for a in alerts: st.write("- ", a)
+
